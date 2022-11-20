@@ -1,0 +1,129 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+	color: inherit;
+}
+
+.medsos{
+  background-color: #244D6C;
+}
+
+.medsos a{
+	color: white;
+}
+
+.medsos li{
+	font-size: 20px;
+	padding-left: 25px;
+	padding-right: 20px;
+}
+
+.medsos ul li{
+	display: inline-block;
+}
+
+.container{
+	width: 80%;
+	height: 28px;
+	margin-bottom: 15px;
+	color: white;
+}
+
+ .container h1 a{
+ 	text-decoration: none;
+ 	margin-left: 35%;
+ 	text-shadow: 6px 6px 8px blue, 0 0 20px black, 0 0 30px grey;
+ 	font-weight: bold;
+ }
+
+
+.active{
+	margin-right: 60px;
+	text-shadow: 2px 2px 4px blue, 0 0 20px black, 0 0 30px grey;
+}
+
+.active a{
+	color: black;
+}
+
+header{
+	background: #fff;
+  font-size: 25px;
+}
+
+header ul{
+	float: right;
+}
+
+header ul li{
+	display: inline-block;	
+}
+
+header ul li a{
+	padding: 0px 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.active{
+	color: #fff;
+}
+
+.product{
+	background: linear-gradient( #616A6B, white, #616A6B);
+	text-shadow: 2px 2px 4px blue, 0 0 20px black, 0 0 30px grey;
+	border-radius: 38%;
+	border-top-right-radius: 40%;
+	border-bottom-right-radius: 45%;
+	margin-bottom: 40px;
+}
+
+.about{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-shadow: 2px 2px 4px blue, 0 0 20px black, 0 0 30px grey;
+	font-weight: bold;
+}
+
+.g1:hover{
+	-ms-transform: scale(1.4); 
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+ 
+.g2:hover{
+	-ms-transform: scale(1.4); 
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.g3:hover{
+	-ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.SIZECHART{
+	text-shadow: 2px 2px 4px blue, 0 0 20px black, 0 0 30px grey;
+	background: linear-gradient( #616A6B, white, #616A6B);
+	line-height: 15px;
+	font-weight: bold;
+	border-radius: 38%;
+}
+
+.SIZECHART p{
+	text-shadow: none;
+}
+
+.carousel-inner{
+	border: 10px double blue;
+	background-color: grey;
+}
+
+.contact{
+	background: linear-gradient( #616A6B, white, #616A6B);
+	border-top-right-radius: 38%;
+	border-top-left-radius: 38%;
+}
